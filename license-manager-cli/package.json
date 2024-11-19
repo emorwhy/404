@@ -1,0 +1,22 @@
+{
+  "name": "license-manager-cli",
+  "version": "1.0.0",
+  "description": "CLI for managing licenses",
+  "main": "index.js",
+  "bin": {
+    "license-manager": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "license",
+    "management",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
